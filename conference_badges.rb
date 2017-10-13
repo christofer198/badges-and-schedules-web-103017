@@ -23,7 +23,7 @@ end
 
 def printer(array)
   new_array = []
-  new_array.concat(assign_rooms(array))
+  new_array.concat(batch_badge_creator(array))
 
   for each in new_array
     puts each
