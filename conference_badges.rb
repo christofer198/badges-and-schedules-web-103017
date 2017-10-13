@@ -28,5 +28,5 @@ def printer(array)
   for each in new_array
     puts each
   end
-  
+
 end
